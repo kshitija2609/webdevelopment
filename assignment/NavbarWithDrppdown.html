@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        padding: 0ex;
+        margin: 0ex;
+      }
+
+      body {
+        background-image: url(../img/back.jpg);
+        background-size: cover;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .navbar {
+        background-color: blueviolet;
+        text-align: center;
+      }
+
+      .navbar ul {
+        list-style: none;
+        color: white;
+      }
+      .navbar ul li {
+        display: inline-flex;
+        width: auto;
+        margin: 10px;
+        /* background-color: darkgray; */
+        padding: 12px;
+      }
+      .navbar ul li a {
+        font-size: 18px;
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .navbar .fa {
+        margin-right: 8px;
+      }
+
+      .navbar ul li a:hover {
+        background-color: rgb(138, 138, 228);
+        border: 2px solid rgb(138, 138, 228);
+        /* border-radius: ; */
+      }
+
+      .subaboutus {
+        display: none;
+      }
+      .navbar ul li:hover .subaboutus {
+        display: block;
+        position: absolute;
+        margin-top: 14px;
+        margin-left: -16px;
+      }
+
+      .navbar ul li:hover .subaboutus ul {
+        display: block;
+        list-style: square;
+        margin: 10px;
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa fa-user" aria-hidden="true"></i> Abouts us</a
+          >
+
+          <div class="subaboutus">
+            <ul>
+              <li>
+                <a href="#">Mission</a>
+                <a href="#">Vission</a>
+                <a href="#">Target</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Services</a>
+          <div class="subaboutus">
+            <ul>
+              <li>
+                <a href="#">Mission</a>
+                <a href="#">Vission</a>
+                <a href="#">Target</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Pricing</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Clients</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>training</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa fa-home" aria-hidden="true"></i>Contact us</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
