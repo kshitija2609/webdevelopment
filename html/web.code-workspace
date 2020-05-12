@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\.."
+	},
+	{
+		"path": "..\\..\\..\\webrepo\\webkshitija"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "webkshitija"
+  }
+}
